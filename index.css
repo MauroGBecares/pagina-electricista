@@ -108,6 +108,9 @@ body {
     color: #0df053;
     background: #fff;
 }
+.margin-top{
+    margin-top: 100px;
+}
 
 @media (max-width: 1200px){
     .logo{
@@ -116,7 +119,7 @@ body {
 }
 @media (max-width: 768px){
     .logo{
-        width: 40%;
+        width: 25%;
     }
     .fa-bolt{
         font-size: 10em;
@@ -126,5 +129,8 @@ body {
     .inicio{
         flex-direction: column;
         margin-top: 150px;
+    }
+    .lampara-final{
+        display: none;
     }
 }

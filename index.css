@@ -72,7 +72,7 @@ body {
     height: 1000px; 
 }
 .fa-bolt{
-    font-size: 20em; 
+    font-size: 18em; 
     color: #F3CF31;
 }
 .inicio{
@@ -112,6 +112,9 @@ body {
 @media (max-width: 1200px){
     .logo{
         width: 100%;
+    }
+    .fa-bolt{
+        font-size: 15em; 
     }
 }
 @media (max-width: 768px){

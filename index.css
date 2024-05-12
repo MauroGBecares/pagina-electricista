@@ -1,5 +1,9 @@
 body {
-    background-color: black;
+    background-image: url('img/Mesa de trabajo 3prof.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .font-main {
     font-family: "Montserrat", sans-serif;
@@ -7,13 +11,6 @@ body {
     font-weight: 600;
     font-style: normal;
     color: white;
-  }
-
-.fondo {
-    background-image: url('img/Mesa de trabajo 3prof.png');
-    background-repeat: repeat-y;
-    background-size: cover; 
-    background-position: center center;
 }
 .nav-item:hover{
     border-bottom: 2px solid #F3CF31;
@@ -129,8 +126,9 @@ body {
     .inicio{
         flex-direction: column;
         margin-top: 150px;
-    }
-    .lampara-final{
-        display: none;
-    }
+    }   
+}
+
+.padding-top-title{
+    padding-top: 140px !important;
 }
